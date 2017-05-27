@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAW
+        CwAAAk1TRnQBSQFMAgEBBAEAAZQBAAGUAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AFQAg/wEA
+        AfMB7AptAewB8wIADfQB/wEAEP8D9ATzBfIE/wEAAewB9AoAAfQB7AIAA/cBkgHtB5EBrgH0AQAB/wLz
+        AvIB8QnwAf8B7AJzAksCSgFEAUMCIgEQAQcD/wEAAW0MAAFtAgAB7wH/AfQBvAEaAvMB8QG8AZkBGQHd
+        AZEB9AEAAf8B7AJzAUsCSgFEBiIBDwH0AewBHAF0B1IBSwFKAXMB8wL/AQABbQwAAW0CAAHvAv8BGgF0
+        AZkB9AEaAXQBmQHzAfEBkQH0AQAB/wHsAZoCegJYBlIBSwERAfQB7AGZARwDegNZAVMBUgExAUoBvAL/
+        AQABbQwAAW0CAAHvA/8BmQFSAXQBUgF0AfMB9AHxAZEB9AEAAf8BcwGgApoDegJZA1IBSwFDAfQBcwF6
+        ARwBmQR6A1kBUgFLARwB9AH/AQABbQwAAW0CAAHvA/8BGwF5AXoBWAGZAvQB8gGRAfQBAAH/Ae0BwwGg
+        ApoDegJZAlIBMQFEAfQB7QF6AZkBHAGaBXoCWQFSAXMB8AH/AQABbQIABAcGAAFtAgABBwL/ARoBeQGa
+        AXoBWQF5AZkB9AHyAZEB9AEAAf8BHAHDAqACmgN6AVkBUwJSAUoB9AEcApoBHAGZCHoBdAEcAf8BAAFt
+        DAABbQIAAQcB/wEaAXkCegGgAXoBeQF0AZkB8wGRAfQBAAH/ARwCwwGgA5oDegFZAVMBUgFKAfQBHAGg
+        AZoBmQEcBZkBeQEcAnQBcwH2AQABbQIACAcCAAFtAgABBwH/A/YBGwF5AZkB9gL0AfMBkQH0AQAB/wEc
+        A8MBoAOaA3oBWQFSAW0B9AEcAqABmgGZBnkBcwEHArwB/wEAAW0MAAFtAgABBwT/AfYBeQEaA/8B8wHt
+        AfQBAAH/ARwEwwKgApoDegFZAesB9AEcA6ACmgF6AXQDHAFzAfID/wEAAW0CAAgHAgABbQIAAQkE9AHy
+        AZkB8AQZAbUB9AEAAf8NHAHsAf8BHAGZA6ABmgGZAfAB8wPyAfYD/wEAAW0MAAFtAgAB1gPcAdYF1QHU
+        AbMBrQH0AQAB/wEcAxoBmgGZAe8B8QbzAf8BvAQcAZkB8gn/AQABbQIACAcCAAFtAgAB1gPcAtYF1QKt
+        AfQBAAH/AbwEHAGZAfMJ/wX0Cv8BAAFtDAABbQIADv8BACD/AQAB7AH0CgAB9AHsEQAg/wEAAfMB7Apt
+        AewB8wEAAUIBTQE+BwABPgMAASgDAAFAAwABIAMAAQEBAAEBBgABARYAA/+BAAL/BAABgAEBAYABAQQA
+        AZ8B+QGAAQEEAAG/Af0BgAEBBAABvwH9AYABAQQAAb8B/QGAAQEEAAG/Af0BgAEBBAABsAH9AYABAQQA
+        Ab8B/QGAAQEEAAGwAQ0BgAEBBAABvwH9AYABAQQAAbABDQGAAQEEAAG/Af0BgAEBBAABsAENAYABAQQA
+        Ab8B/QGAAQEEAAGfAfkC/wQAAYABAQs=
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 120</value>
+  </data>
+  <data name="tsmiOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsmiOpen.Text" xml:space="preserve">
+    <value>オープン(&amp;O)</value>
+  </data>
+  <data name="tsmiNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsmiNew.Text" xml:space="preserve">
+    <value>新規(&amp;N)</value>
+  </data>
+  <data name="tsmiNewFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="tsmiNewFolder.Text" xml:space="preserve">
+    <value>フォルダ(&amp;F)</value>
+  </data>
+  <data name="tsmiNewFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 22</value>
+  </data>
+  <data name="tsmiNewFile.Text" xml:space="preserve">
+    <value>SQLスクリプトファイル(&amp;S)</value>
+  </data>
+  <data name="tsmiSplitLine1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="tsmiRefrush.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsmiRefrush.Text" xml:space="preserve">
+    <value>リフレッシュ(&amp;R)</value>
+  </data>
+  <data name="tsmiDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsmiDelete.Text" xml:space="preserve">
+    <value>削除(&amp;D)</value>
+  </data>
+  <data name="tsmiRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="tsmiRename.Text" xml:space="preserve">
+    <value>名前の変更(&amp;M)</value>
+  </data>
+  <data name="txtSrch.Text" xml:space="preserve">
+    <value>入力および問い合わせに</value>
+  </data>
+  <data name="fbdRootFloder.Description" xml:space="preserve">
+    <value>フォルダを選択してください</value>
+  </data>
+  <data name="btn_RootSet.Text" xml:space="preserve">
+    <value>ルートのお気に入りを設定</value>
+  </data>
+  <data name="btn_RootSet.ToolTipText" xml:space="preserve">
+    <value>ルートのお気に入りを設定</value>
+  </data>
+  <data name="btn_NewFolder.Text" xml:space="preserve">
+    <value>新規フォルダ</value>
+  </data>
+  <data name="btn_NewFolder.ToolTipText" xml:space="preserve">
+    <value>新規フォルダ</value>
+  </data>
+  <data name="btn_NewFile.Text" xml:space="preserve">
+    <value>新規SQLドキュメント</value>
+  </data>
+  <data name="btn_NewFile.ToolTipText" xml:space="preserve">
+    <value>新規SQLドキュメント</value>
+  </data>
+  <data name="btn_Refrush.Text" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="btn_Refrush.ToolTipText" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="btn_Delete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SQLのお気に入り</value>
+  </data>
+  <data name="TXT_FAVORITES" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="TXT_FILE_NOT_EXIST" xml:space="preserve">
+    <value>選択したファイルが存在しません。</value>
+  </data>
+  <data name="TXT_FILE_NOT_SAVE" xml:space="preserve">
+    <value>ファイル "{0}" は、保存されていませんか？</value>
+  </data>
+  <data name="TXT_INVALID_NODE_OR_CHAR" xml:space="preserve">
+    <value>無効なノードまたは無効な文字：</value>
+  </data>
+  <data name="TXT_INVALID_NODE_OR_EMPTY" xml:space="preserve">
+    <value>無効なノードまたはノード名を空にすることはできません。</value>
+  </data>
+  <data name="TXT_NEW_FOLDER" xml:space="preserve">
+    <value>新規フォルダ</value>
+  </data>
+  <data name="TXT_NEW_SQL_DOC" xml:space="preserve">
+    <value>新規SQLドキュメント</value>
+  </data>
+  <data name="TXT_NOT_OPEN_SQL_WINDOW" xml:space="preserve">
+    <value>開いていないSQLエディタウィンドウ。</value>
+  </data>
+  <data name="TXT_NOT_SEL_NODE" xml:space="preserve">
+    <value>ツリービューのノードを選択してください。</value>
+  </data>
+  <data name="TXT_NOT_SEL_NODE_OR_IS_ROOT" xml:space="preserve">
+    <value>ありません選択したノードまたはノードがルートノードです。</value>
+  </data>
+  <data name="TXT_PLS_REF_FAVORITES" xml:space="preserve">
+    <value>お気に入りをリフレッシュして、もう一度お試しください。</value>
+  </data>
+  <data name="TXT_SQL_EDITOR" xml:space="preserve">
+    <value>SQLエディタ</value>
+  </data>
+  <data name="TXT_INC_DIR" xml:space="preserve">
+    <value>{0} ディレクトリが含まれて</value>
+  </data>
+  <data name="TXT_INC_FILE" xml:space="preserve">
+    <value>{0} ファイルが含まれて</value>
+  </data>
+</root>

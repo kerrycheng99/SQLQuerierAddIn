@@ -1,0 +1,10 @@
+项目【VSTOSQLBrowser】不再使用。
+启用新项目【SQLQuerierAddIn】。
+最新为【SQLQuerierAddIn(vs10)】
+
+V1.6  doing...
+1.图标改变->sql2005.ico done
+2.追加收藏夹功能 done
+3.追加设置选项功能
+
+

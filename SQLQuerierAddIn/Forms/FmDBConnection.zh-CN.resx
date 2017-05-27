@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblServerName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblServerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="lblServerName.Text" xml:space="preserve">
+    <value>服务器名称(&amp;S):</value>
+  </data>
+  <data name="lblAuth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAuth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="lblAuth.Text" xml:space="preserve">
+    <value>身份验证(&amp;A):</value>
+  </data>
+  <data name="lblUserName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUserName.Text" xml:space="preserve">
+    <value>用户名(&amp;U):</value>
+  </data>
+  <data name="lblPwd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="lblPwd.Text" xml:space="preserve">
+    <value>密码(&amp;P):</value>
+  </data>
+  <data name="chkSavePwd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSavePwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="chkSavePwd.Text" xml:space="preserve">
+    <value>记住密码(&amp;M)</value>
+  </data>
+  <data name="lblDataName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataName.Text" xml:space="preserve">
+    <value>数据库名称(&amp;D):</value>
+  </data>
+  <data name="chkSaveConInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSaveConInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="chkSaveConInfo.Text" xml:space="preserve">
+    <value>保存连接信息(&amp;I)</value>
+  </data>
+  <data name="btnConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>连接(&amp;C)</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消(&amp;N)</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAE
+        AAASCwAAEgsAAAAAAAAAAAAAhYqI/4WKiP+Fioj/hYqI/4WKiP+Fioj/hYqI/4WKiP+Fioj/hYqI/4WK
+        iP+Fioj/AAAAAAAAAAAAAAAAAAAAAIWKiP+3vbv/v8XD/7a9uv+7wb7/tr26/7i/vP+2vbr/u8G//7a9
+        uv/Eycj/hYqI/wAAAAAAAAAAAAAAAAAAAACFiYdz2t7d/ba9uv/X2tn/tr26/8vQzv+2vbr/zNDO/7a9
+        uv/Z3dv/tbu594WJh3MAAAAAAAAAAAAAAAAAAAAAjYqKroOAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OA
+        gP+DgID/g4CA/4OAgP+Kion/hYqI/4WKiP+Fioj/hYqI/4SBgf79/f3/////////////////////////
+        ///////////////////9/f3/hIGB/7vBv/+2vbr/xMnI/4WKiP+DgID//////4dKIP+HSiD/h0og/4dK
+        IP+HSiD/h0og/4dKIP+HSiD//////4OAgP+2vbr/2d3b/7W7ufeFiYdzg4CA//////+HSiD/u4RW/8KN
+        X//HlGf/x5Rn/8KNX/+7hFb/h0og//////+DgID/g4CA/4OAgP+DgID/jYqKroOAgP//////h0og/8GQ
+        aP/ElGz/w5Bl/76IWv+7hFX/tn1O/4dKIP//////g4CA/////////////f39/4SBgf6DgID//////4dK
+        IP/AkGr/w5Zy/8abdv/FmXP/vIph/7aAVP+HSiD//////4OAgP+HSiD/h0og//////+DgID/g4CA////
+        //+HSiD/vZBs/8GVcv/DmXb/xJp4/8OYdv/BlnP/h0og//////+DgID/u4RW/4dKIP//////g4CA/4OA
+        gP//////h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP//////g4CA/7Z9Tv+HSiD//////4OA
+        gP+DgID+/v7+/////////////////////////////////////////////v7+/4OAgP+2gFT/h0og////
+        //+DgID/i4iIroOAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+djoP/wZZz/4dK
+        IP//////g4CA/wAAAAAAAAAAAAAAAAAAAACDgID//////4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dK
+        IP+HSiD//////4OAgP8AAAAAAAAAAAAAAAAAAAAAg4CA/v7+/v//////////////////////////////
+        //////////////7+/v+DgID/AAAAAAAAAAAAAAAAAAAAAIuIiK6DgID/g4CA/4OAgP+DgID/g4CA/4OA
+        gP+DgID/g4CA/4OAgP+DgID/i4iIrgAPAAAADwAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADwAAAA8AAAAPAAAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAASCwAAEgsAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAA
+        ABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAEgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxbm7/eHR08Xl1de95dXXveXV173l1de95dXXveXV173l1
+        de95dXXveXV173l1de95dXXveXV173l1de95dXXveXV173l1de95dXXveXV173h1dfBxbm7/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIF9fcj4+Pj/////////////////////////
+        ////////////////////////////////////////////////////////////////////////+fn5/4B8
+        fM8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfX19era3t/vW2tj/sbi1/7G4
+        tf+1vLn/sbi1/77Fwf+xuLX/sbi1/7G4tf+xuLX/sbi1/7G4tf+xuLX/uL+9/7G4tf+1vLn/sbi1/9XZ
+        2P+3t7f8fnx8fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbW0/mJeW7tzg
+        3/+2vrr/usO//7rFv//L0c7/usW//9vf3f+6xb//6+7s/7rFv//j5uT/usW//9LY1f+6xb//wsnG/7rF
+        v/+2vrr/3ODf/5mYl+5sbGxCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMz
+        MwqEg4P/jIyM77G4tf+xuLX/tby5/7G4tf++xcH/sbi1/8bLyf+xuLX/x8zK/7G4tf/CyMX/sbi1/7i/
+        vf+xuLX/tby5/7G4tf+Li4vwhIOD/y4uLgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAGAAAADQAAABIAAAAVAAAAGYOIhv+QlZP/lpuZ/5uhn/+hp6X/p62r/62z
+        sf+DiIb/AAAAGQAAABYAAAASAAAADQAAAAcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAi4iInoSBgf6DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OA
+        gP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/hIGB/oJ/f6gAAAAaAAAAGgAAABoAAAAaAAAAGgAA
+        ABoAAAAaAAAAGgAAABIAAAAAAAAAAAAAAACEgYH9////////////////////////////////////////
+        ////////////////////////////////////////////////////////g4CA/3l1de95dXXveXV173l1
+        de95dXXveXV173l1de94dXXwcW5u/wAAAAAAAAAAAAAAAIOAgP//////4eTk/+Hk5P/h5OT/4eTk/+Hk
+        5P/h5OT/4eTk/+Hk5P/h5OT/4eTk/+Hk5P/h5OT/4eTk/+Hk5P/h5OT/4eTk//////+DgID/////////
+        //////////////////////////////n5+f+AfHzPAAAAAAAAAAAAAAAAg4CA//////+HSiD/h0og/4dK
+        IP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD//////4OA
+        gP+xuLX/sbi1/7i/vf+xuLX/tby5/7G4tf/V2dj/t7e3/H58fH8AAAAAAAAAAAAAAACDgID//////4dK
+        IP+4gVL/vIVW/7+KW//CjmD/xpNl/8mXav/Mm23/zJtt/8mXav/Gk2X/wo5g/7+KW/+8hVb/uIFS/4dK
+        IP//////g4CA/7rFv//S2NX/usW//8LJxv+6xb//tr66/9zg3/+ZmJfubGxsQgAAAAAAAAAAAAAAAIOA
+        gP//////h0og/7uHWv+/jGH/wpBm/8SSZ//Fk2b/xZJk/8eUZv/HlGb/xZJk/8OPYf/Ai13/vYdZ/7qD
+        VP+3f1D/h0og//////+DgID/wsjF/7G4tf+4v73/sbi1/7W8uf+xuLX/i4uL8ISDg/8uLi4LAAAAAAAA
+        AAAAAAAAg4CA//////+HSiD/u4db/7+NY//Ckmn/xphw/8mcdf/Jm3T/xJNn/8GNXv/Ai13/v4lb/72G
+        WP+6g1T/uIBR/7V8TP+HSiD//////4OAgP+ts7H/g4iG/wAAABkAAAAWAAAAEgAAAA0AAAAHAAAAAQAA
+        AAAAAAAAAAAAAAAAAACDgID//////4dKIP+6hlv/vYth/8CQaP/DlW7/xplz/8mdeP/Kn3v/yJp0/7+L
+        X/+6g1T/uIFS/7Z+T/+0e0v/snhI/4dKIP//////g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4SB
+        gf6LiIieAAAAAAAAAAAAAAAAAAAAAIOAgP//////h0og/7iFW/+7iGD/vo5m/8KSa//ElnH/xpp1/8ed
+        ef/Jn3z/yqF//8aadv+/jWX/uIJW/7N6Tf+vdUX/h0og//////+DgID/////////////////////////
+        /////////////4SBgf0AAAAAAAAAAAAAAAAAAAAAg4CA//////+HSiD/toJY/7qHX/+8i2T/v5Bp/8GT
+        bv/El3L/xZp3/8acev/Innz/yJ99/8eefP/GnXv/xZp5/8SZd/+HSiD//////4OAgP/h5OT/4eTk/+Hk
+        5P/h5OT/4eTk/+Hk5P//////g4CA/wAAAAAAAAAAAAAAAAAAAACDgID//////4dKIP+0gFf/t4Vd/7qJ
+        Y/+9jWf/v5Fs/8GUcf/Dl3T/xZp4/8Saef/Emnj/xJl3/8KYdv/ClnT/wJVz/4dKIP//////g4CA/4dK
+        IP+HSiD/h0og/4dKIP+HSiD/h0og//////+DgID/AAAAAAAAAAAAAAAAAAAAAIOAgP//////h0og/7WB
+        Wf+3hF3/uIdh/7uLZf+8jmr/v5Jv/8GVc//BlnP/wZZz/8CVc//AlHL/v5Rx/7+Ucf+/lHH/h0og////
+        //+DgID/xpNl/8KOYP+/ilv/vIVW/7iBUv+HSiD//////4OAgP8AAAAAAAAAAAAAAAAAAAAAg4CA////
+        //+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dK
+        IP+HSiD//////4OAgP/Dj2H/wItd/72HWf+6g1T/t39Q/4dKIP//////g4CA/wAAAAAAAAAAAAAAAAAA
+        AACEgYH9////////////////////////////////////////////////////////////////////////
+        ////////////////////////hIGA/7+JW/+9hlj/uoNU/7iAUf+1fEz/h0og//////+DgID/AAAAAAAA
+        AAAAAAAAAAAAAIuIiJ6EgYH+g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OA
+        gP+DgID/g4CA/4OAgP+DgID/g4CA/4SBgP+eiXj/uoNU/7iBUv+2fk//tHtL/7J4SP+HSiD//////4OA
+        gP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACDgID//////4dK
+        IP+4hVv/u4hg/76OZv/Ckmv/xJZx/8aadf/HnXn/yZ98/8qhf//Gmnb/v41l/7iCVv+zek3/r3VF/4dK
+        IP//////g4CA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIOA
+        gP//////h0og/7aCWP+6h1//vItk/7+Qaf/Bk27/xJdy/8Wad//GnHr/yJ58/8ifff/Hnnz/xp17/8Wa
+        ef/EmXf/h0og//////+DgID/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAg4CA//////+HSiD/tIBX/7eFXf+6iWP/vY1n/7+RbP/BlHH/w5d0/8WaeP/Emnn/xJp4/8SZ
+        d//CmHb/wpZ0/8CVc/+HSiD//////4OAgP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACDgID//////4dKIP+1gVn/t4Rd/7iHYf+7i2X/vI5q/7+Sb//BlXP/wZZz/8GW
+        c//AlXP/wJRy/7+Ucf+/lHH/v5Rx/4dKIP//////g4CA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIOAgP//////h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og/4dK
+        IP+HSiD/h0og/4dKIP+HSiD/h0og/4dKIP+HSiD/h0og//////+DgID/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIGB/f//////////////////////////////////
+        /////////////////////////////////////////////////////////////4SBgf0AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLiIiehIGB/oOAgP+DgID/g4CA/4OA
+        gP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+DgID/g4CA/4OAgP+EgYH+i4iIngAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf/AAAP/wAAAAcAA
+        AAHAAAABwAAAAcAAAAHAAAABwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAD/8AAA//A
+        AAP/wAAD/8AAA//AAAP/wAAD/8AAA///////////
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>连接到服务器</value>
+  </data>
+  <data name="TXT_FORM_TITLE" xml:space="preserve">
+    <value>连接到服务器</value>
+    <comment>Connection</comment>
+  </data>
+  <data name="TXT_AUTH_0" xml:space="preserve">
+    <value>Windows 身份验证</value>
+    <comment>Windows Authentication</comment>
+  </data>
+  <data name="TXT_AUTH_1" xml:space="preserve">
+    <value>SQL Server 身份验证</value>
+    <comment>SQL Server Authentication</comment>
+  </data>
+  <data name="TXT_MGSBOX_TITLE" xml:space="preserve">
+    <value>错误</value>
+    <comment>Error</comment>
+  </data>
+  <data name="TXT_SERVER_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>SQL服务器名不能为空,请选择SQL服务器名！</value>
+  </data>
+  <data name="TXT_USER_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>用户名不能为空,请输入用户名！</value>
+  </data>
+  <data name="TXT_USER_PWD_EMPTY_ERR" xml:space="preserve">
+    <value>密码不能为空，请输入密码！</value>
+  </data>
+  <data name="TXT_DB_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>SQL数据库名称不能为空,请输入数据库名称！</value>
+  </data>
+  <data name="cmbAuth.Items" xml:space="preserve">
+    <value>Windows 身份验证</value>
+    <comment>Windows Authentication</comment>
+  </data>
+  <data name="cmbAuth.Items1" xml:space="preserve">
+    <value>SQL Server 身份验证</value>
+    <comment>SQL Server Authentication</comment>
+  </data>
+</root>

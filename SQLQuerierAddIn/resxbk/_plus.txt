@@ -1,0 +1,138 @@
+TpSQLEditor
+===========
+--Default
+TXT_DISPLAY Display 显示
+TXT_EXECUTING_QRY Executing the query...  正在执行查询...
+TXT_FORM_TITLE  SQL Editor  SQL编辑器
+TXT_MGSBOX_TITLE  Error 错误
+TXT_NO_OPEN_WORKSHEET No opened worksheet.  没有打开的工作表。
+TXT_QRY_COMPL_BUT_ERR Inquiry has been completed, but with errors.  查询已完成，但有错误。
+TXT_QRY_SUCCESS Query has executed successfully.  查询已成功执行。
+TXT_QUERY Query 查询
+TXT_ROW Row(s)  行
+TXT_XLS_DATA_CLEARED  Current worksheet data has been cleared.  当前工作表数据已清空。
+
+--zh-CN
+TXT_DISPLAY 显示  Display
+TXT_EXECUTING_QRY 正在执行查询... Executing the query...
+TXT_FORM_TITLE  SQL编辑器  SQL Editor
+TXT_MGSBOX_TITLE  错误  Error
+TXT_NO_OPEN_WORKSHEET 没有打开的工作表。 No opened worksheet.
+TXT_QRY_COMPL_BUT_ERR 查询已完成，但有错误。 Inquiry has been completed, but with errors.
+TXT_QRY_SUCCESS 查询已成功执行。  Query has executed successfully.
+TXT_QUERY 查询  Query
+TXT_ROW 行 Row(s)
+TXT_XLS_DATA_CLEARED  当前工作表数据已清空。 Current worksheet data has been cleared.
+
+--ja-JP
+TXT_DISPLAY 表示  Display
+TXT_EXECUTING_QRY クエリを実行しています...  Executing the query...
+TXT_FORM_TITLE  SQLエディタ SQL Editor
+TXT_MGSBOX_TITLE  エラー Error
+TXT_NO_OPEN_WORKSHEET 開いていないワークシートはありません。 No opened worksheet.
+TXT_QRY_COMPL_BUT_ERR クエリが完了したが、エラーが発生したされています。 Inquiry has been completed, but with errors.
+TXT_QRY_SUCCESS クエリが正常に実行されました。 Query has executed successfully.
+TXT_QUERY クエリ Query
+TXT_ROW 行 Row(s)
+TXT_XLS_DATA_CLEARED  現在のワークシートのデータは消去されました。  Current worksheet data has been cleared.
+
+FmDBConnection
+===========
+--Default
+TXT_AUTH_0  Windows Authentication  Windows 身份验证
+TXT_AUTH_1  SQL Server Authentication SQL Server 身份验证
+TXT_DB_NAME_EMPTY_ERR SQL database name can not be blank, please enter the database name. SQL数据库名称不能为空,请输入数据库名称！
+TXT_FORM_TITLE  Connection  连接到服务器
+TXT_MGSBOX_TITLE  Error 错误
+TXT_SERVER_NAME_EMPTY_ERR SQL server name can not be empty, please input(select) the SQL server name. SQL服务器名不能为空,请选择SQL服务器名！
+TXT_USER_NAME_EMPTY_ERR User name can not be empty, please enter your user name.  用户名不能为空,请输入用户名！
+TXT_USER_PWD_EMPTY_ERR  The password can not be empty, please enter your password.  密码不能为空，请输入密码！
+
+
+--zh-CN
+TXT_AUTH_0  Windows 身份验证  Windows Authentication
+TXT_AUTH_1  SQL Server 身份验证 SQL Server Authentication
+TXT_DB_NAME_EMPTY_ERR SQL数据库名称不能为空,请输入数据库名称！  
+TXT_FORM_TITLE  连接到服务器  Connection
+TXT_MGSBOX_TITLE  错误  Error
+TXT_SERVER_NAME_EMPTY_ERR SQL服务器名不能为空,请选择SQL服务器名！ 
+TXT_USER_NAME_EMPTY_ERR 用户名不能为空,请输入用户名！ 
+TXT_USER_PWD_EMPTY_ERR  密码不能为空，请输入密码！ 
+
+--ja-JP
+TXT_AUTH_0  Windows 認証  Windows Authentication
+TXT_AUTH_1  SQL Server 認証 SQL Server Authentication
+TXT_DB_NAME_EMPTY_ERR SQLデータベース名を空にすることはできません。  SQL database name can not be blank, please enter the database name!
+TXT_FORM_TITLE  サーバに接続  Connection
+TXT_MGSBOX_TITLE  エラー Error
+TXT_SERVER_NAME_EMPTY_ERR SQLサーバー名が空にすることはできません。  SQL server name can not be empty, please select the SQL server name!
+TXT_USER_NAME_EMPTY_ERR ユーザー名を空にすることはできません。 User name can not be empty, please enter your user name!
+TXT_USER_PWD_EMPTY_ERR  パスワードを空にすることはできません。 The password can not be empty, please enter your password!
+
+
+
+  <data name="TXT_EXECUTING_QRY" xml:space="preserve">
+    <value>正在执行查询...</value>
+    <comment>Executing the query...</comment>
+  </data>
+  <data name="TXT_MGSBOX_TITLE" xml:space="preserve">
+    <value>错误</value>
+    <comment>Error</comment>
+  </data>
+  <data name="TXT_QRY_COMPL_BUT_ERR" xml:space="preserve">
+    <value>查询已完成，但有错误。</value>
+    <comment>Inquiry has been completed, but with errors.</comment>
+  </data>
+  <data name="TXT_QRY_SUCCESS" xml:space="preserve">
+    <value>查询已成功执行。</value>
+    <comment>Query has executed successfully.</comment>
+  </data>
+  <data name="TXT_ROW" xml:space="preserve">
+    <value>行</value>
+    <comment>Row(s)</comment>
+  </data>
+  <data name="TXT_QUERY" xml:space="preserve">
+    <value>查询</value>
+    <comment>Query</comment>
+  </data>
+  <data name="TXT_DISPLAY" xml:space="preserve">
+    <value>显示</value>
+    <comment>Display</comment>
+  </data>
+  <data name="TXT_FORM_TITLE" xml:space="preserve">
+    <value>SQL编辑器</value>
+    <comment>SQL Editor</comment>
+  </data>  
+
+  <data name="TXT_FORM_TITLE" xml:space="preserve">
+    <value>连接到服务器</value>
+    <comment>Connection</comment>
+  </data> 
+  <data name="TXT_AUTH_0" xml:space="preserve">
+    <value>Windows 身份验证</value>
+    <comment>Windows Authentication</comment>
+  </data> 
+  <data name="TXT_AUTH_1" xml:space="preserve">
+    <value>SQL Server 身份验证</value>
+    <comment>SQL Server Authentication</comment>
+  </data> 
+  <data name="TXT_MGSBOX_TITLE" xml:space="preserve">
+    <value>错误</value>
+    <comment>Error</comment>
+  </data>
+  <data name="TXT_SERVER_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>SQL服务器名不能为空,请选择SQL服务器名！</value>
+    <comment></comment>
+  </data>
+  <data name="TXT_USER_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>用户名不能为空,请输入用户名！</value>
+    <comment></comment>
+  </data>
+  <data name="TXT_USER_PWD_EMPTY_ERR" xml:space="preserve">
+    <value>密码不能为空，请输入密码！</value>
+    <comment></comment>
+  </data>
+  <data name="TXT_DB_NAME_EMPTY_ERR" xml:space="preserve">
+    <value>SQL数据库名称不能为空,请输入数据库名称！</value>
+    <comment></comment>
+  </data>

@@ -1,0 +1,64 @@
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Properties.Resources.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.csproj.GenerateResource.Cache
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.pdb
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\ja-JP\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\zh-CN\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.dll.manifest
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.vsto
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\ja-JP\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\zh-CN\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQL Server SQL Querier for Excel Add-in.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQL Server SQL Querier for Excel Add-in.pdb
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.csprojResolveAssemblyReference.cache
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.pdb
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\ja-JP\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\zh-CN\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.dll.manifest
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\SQL Server SQL Querier for Excel Add-in.vsto
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavView.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmSQLFavorites.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Properties.Resources.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Controls.TpSQLEditor.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmAbout.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmDBConnection.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.SqlRibbon.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.csproj.GenerateResource.Cache
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\ja-JP\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\zh-CN\SQL Server SQL Querier for Excel Add-in.resources.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQL Server SQL Querier for Excel Add-in.dll
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQL Server SQL Querier for Excel Add-in.pdb
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavSQLBase.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavSQLBase.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavSQLBase.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmSQLFavorites.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FmSQLFavorites.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavView.ja-JP.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.Forms.FavView.zh-CN.resources
+D:\UBIQ_Dev\SQLQuerierAddIn(vs10)_V1.6\SQLQuerierAddIn\obj\Debug\SQLQuerierAddIn.csprojResolveAssemblyReference.cache

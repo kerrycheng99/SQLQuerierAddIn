@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{595AB05F-FBD7-4383-BF83-1A063F8349DF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <RootNamespace>SQLQuerierAddIn</RootNamespace>
+    <AssemblyName>SQL Server SQL Querier for Excel Add-in</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <DefineConstants>VSTO40</DefineConstants>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>D:\UBIQ_Dev\SQLQuerierAddIn%28vs10%29_V1.6\published\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>zh-chs</TargetCulture>
+    <ApplicationVersion>1.6.0.51127</ApplicationVersion>
+    <AutoIncrementApplicationRevision>false</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>SQL Server SQL Querier for Excel Add-in</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>SQL Server SQL Querier for Excel Add-in</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>Excel</OfficeApplication>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>$(DefineConstants);TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!--
+    This section enables pre- and post-build steps. However, in VSTO use
+    MSBuild tasks instead of these properties.       
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SQLQuerierAddIn_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>296FE1E7AAB926B49B0261C8F6939123056CF33C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="FastColoredTextBox, Version=2.16.11.0, Culture=neutral, PublicKeyToken=fb8aa12b994ef61b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor, Version=3.2.1.6466, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\WinControls\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <Compile Include="Common\ComConst.cs" />
+    <Compile Include="Common\ComDES.cs" />
+    <Compile Include="Common\ComFCTextBoxExpand.cs" />
+    <Compile Include="Common\ComFunction.cs" />
+    <Compile Include="Common\ComRegistry.cs" />
+    <Compile Include="Common\SqlBaseInfo.cs" />
+    <Compile Include="Common\SqlComDB.cs" />
+    <Compile Include="Common\SqlConnectionParams.cs" />
+    <Compile Include="Controls\FavNode.cs" />
+    <Compile Include="Controls\TpSQLEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TpSQLEditor.Designer.cs">
+      <DependentUpon>TpSQLEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FavSQLBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FavSQLBase.Designer.cs">
+      <DependentUpon>FavSQLBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FavView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FavView.Designer.cs">
+      <DependentUpon>FavView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmAbout.Designer.cs">
+      <DependentUpon>FmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmDBConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmDBConnection.Designer.cs">
+      <DependentUpon>FmDBConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FmSQLFavorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FmSQLFavorites.Designer.cs">
+      <DependentUpon>FmSQLFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controls\TpSQLEditor.ja-JP.resx">
+      <DependentUpon>TpSQLEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TpSQLEditor.resx">
+      <DependentUpon>TpSQLEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TpSQLEditor.zh-CN.resx">
+      <DependentUpon>TpSQLEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavSQLBase.ja-JP.resx">
+      <DependentUpon>FavSQLBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavSQLBase.resx">
+      <DependentUpon>FavSQLBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavSQLBase.zh-CN.resx">
+      <DependentUpon>FavSQLBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavView.ja-JP.resx">
+      <DependentUpon>FavView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavView.resx">
+      <DependentUpon>FavView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FavView.zh-CN.resx">
+      <DependentUpon>FavView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmAbout.ja-JP.resx">
+      <DependentUpon>FmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmAbout.resx">
+      <DependentUpon>FmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmAbout.zh-CN.resx">
+      <DependentUpon>FmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmDBConnection.ja-JP.resx">
+      <DependentUpon>FmDBConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmDBConnection.resx">
+      <DependentUpon>FmDBConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmDBConnection.zh-CN.resx">
+      <DependentUpon>FmDBConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmSQLFavorites.ja-JP.resx">
+      <DependentUpon>FmSQLFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmSQLFavorites.resx">
+      <DependentUpon>FmSQLFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FmSQLFavorites.zh-CN.resx">
+      <DependentUpon>FmSQLFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SqlRibbon.ja-JP.resx">
+      <DependentUpon>SqlRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlRibbon.resx">
+      <DependentUpon>SqlRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlRibbon.zh-CN.resx">
+      <DependentUpon>SqlRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SqlRibbon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SqlRibbon.Designer.cs">
+      <DependentUpon>SqlRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThisAddIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="SQLQuerierAddIn_TemporaryKey.pfx" />
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.cs</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.cs">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\btn_NewFolder.png" />
+    <Content Include="Resources\btn_Refrush.png" />
+    <Content Include="Resources\button_ok.png" />
+    <Content Include="Resources\button_undo.png" />
+    <Content Include="Resources\button_xls_clear.png" />
+    <Content Include="Resources\db_column.png" />
+    <Content Include="Resources\db_function.png" />
+    <Content Include="Resources\db_procedure.png" />
+    <Content Include="Resources\db_synonym.png" />
+    <Content Include="Resources\db_table.png" />
+    <Content Include="Resources\db_view.png" />
+    <Content Include="Resources\delete.gif" />
+    <Content Include="Resources\Document.png" />
+    <Content Include="Resources\EditDocument.png" />
+    <Content Include="Resources\fav.gif" />
+    <Content Include="Resources\Folderclose.gif" />
+    <Content Include="Resources\Folderopen.gif" />
+    <Content Include="Resources\GotoFirst.png" />
+    <Content Include="Resources\GotoLast.png" />
+    <Content Include="Resources\GotoNext.png" />
+    <Content Include="Resources\GotoPre.png" />
+    <Content Include="Resources\list_information.png" />
+    <Content Include="Resources\LogoPictureBox.jpg" />
+    <Content Include="Resources\log_progressbar.png" />
+    <Content Include="Resources\log_title.png" />
+    <Content Include="Resources\netstatus_off.png" />
+    <Content Include="Resources\netstatus_on.ico" />
+    <Content Include="Resources\netstatus_on.png" />
+    <Content Include="Resources\network_error.png" />
+    <Content Include="Resources\qry_ok.png" />
+    <Content Include="Resources\qry_warning.png" />
+    <Content Include="Resources\refrush.gif" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\script_edit.png" />
+    <Content Include="Resources\shortcut.png" />
+    <Content Include="Resources\sql_file.png" />
+    <Content Include="Resources\ssms.ico" />
+    <Content Include="Resources\toolbar.gif" />
+  </ItemGroup>
+  <!-- Include the build rules for a C# project. -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Excel" HostPackage="{20A848B8-E01F-4801-962E-25DB0FF57389}" OfficeVersion="14.0" VstxVersion="4.0" ApplicationType="Excel" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\14.0\Excel\InstallRoot\Path#excel.exe" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
+        <Host Name="Excel" GeneratedCodeNamespace="SQLQuerierAddIn" PublishedHash="69C324AB27932AA2FBF2B7EA72250886FF164DE6" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" PublishedHash="8CDEE1D98F070D91973FBE793C51F53AB7FFC7F1" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
